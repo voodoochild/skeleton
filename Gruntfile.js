@@ -15,14 +15,18 @@ module.exports = function(grunt) {
 
     watch: {
       files: ['stylesheets/sass/**/*.scss'],
-      tasks: ['sass']
+      tasks: ['sass'],
+      options: {
+        livereload: true,
+      },
     },
 
     connect: {
       server: {
         options: {
           port: 8080,
-          base: '.'
+          base: '.',
+          livereload: true
         }
       }
     }
