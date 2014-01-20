@@ -1,5 +1,5 @@
 // Reset
-@import '../components/normalize-scss/_normalize';
+@import '../../components/normalize-scss/_normalize';
 
 // Colours
 $foreground: #333;
@@ -18,4 +18,4 @@ $mq-breakpoints: (
   (desktop  900px)
 );
 
-@import '../components/sass-mq/_mq';
+@import '../../components/sass-mq/_mq';
