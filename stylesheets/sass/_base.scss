@@ -9,13 +9,3 @@ $highlight: #f0f;
 // Fonts
 $sans-serif: helvetica, arial, sans-serif;
 $serif: serif;
-
-// Media queries
-$mq-responsive: true;
-$mq-breakpoints: (
-  (mobile   300px)
-  (tablet   600px)
-  (desktop  900px)
-);
-
-@import '../../components/sass-mq/_mq';
